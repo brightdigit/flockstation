@@ -6,20 +6,439 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B3D58C1B1BE5031D002DEE96 /* FlockStationTV.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C1A1BE5031D002DEE96 /* FlockStationTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D58C221BE5031D002DEE96 /* FlockStationTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */; };
+		B3D58C271BE5031D002DEE96 /* FlockStationTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C261BE5031D002DEE96 /* FlockStationTVTests.swift */; };
+		B3D58C381BE50378002DEE96 /* FlockStationOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C371BE50378002DEE96 /* FlockStationOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D58C3F1BE50378002DEE96 /* FlockStationOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D58C351BE50378002DEE96 /* FlockStationOSX.framework */; };
+		B3D58C441BE50378002DEE96 /* FlockStationOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C431BE50378002DEE96 /* FlockStationOSXTests.swift */; };
+		B3D58C541BE50387002DEE96 /* FlockStationIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C531BE50387002DEE96 /* FlockStationIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D58C5B1BE50387002DEE96 /* FlockStationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D58C511BE50387002DEE96 /* FlockStationIOS.framework */; };
+		B3D58C601BE50387002DEE96 /* FlockStationIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C5F1BE50387002DEE96 /* FlockStationIOSTests.swift */; };
+		B3D58C701BE50397002DEE96 /* FlockStationWOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C6F1BE50397002DEE96 /* FlockStationWOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D58C7B1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
+		B3D58C7C1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
+		B3D58C7D1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
+		B3D58C7E1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
+		B3D58C801BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
+		B3D58C811BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
+		B3D58C821BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
+		B3D58C831BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D58C231BE5031D002DEE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D58B7D1BE4FE9D002DEE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D58C171BE5031D002DEE96;
+			remoteInfo = FlockStationTV;
+		};
+		B3D58C401BE50378002DEE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D58B7D1BE4FE9D002DEE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D58C341BE50378002DEE96;
+			remoteInfo = FlockStationOSX;
+		};
+		B3D58C5C1BE50387002DEE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D58B7D1BE4FE9D002DEE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D58C501BE50387002DEE96;
+			remoteInfo = FlockStationIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3D58C111BE5029D002DEE96 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = ifaddrs/module.map; sourceTree = "<group>"; };
+		B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlockStationTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C1A1BE5031D002DEE96 /* FlockStationTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockStationTV.h; sourceTree = "<group>"; };
+		B3D58C1C1BE5031D002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C211BE5031D002DEE96 /* FlockStationTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockStationTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C261BE5031D002DEE96 /* FlockStationTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockStationTVTests.swift; sourceTree = "<group>"; };
+		B3D58C281BE5031D002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C351BE50378002DEE96 /* FlockStationOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlockStationOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C371BE50378002DEE96 /* FlockStationOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockStationOSX.h; sourceTree = "<group>"; };
+		B3D58C391BE50378002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C3E1BE50378002DEE96 /* FlockStationOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockStationOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C431BE50378002DEE96 /* FlockStationOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockStationOSXTests.swift; sourceTree = "<group>"; };
+		B3D58C451BE50378002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C511BE50387002DEE96 /* FlockStationIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlockStationIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C531BE50387002DEE96 /* FlockStationIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockStationIOS.h; sourceTree = "<group>"; };
+		B3D58C551BE50387002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C5A1BE50387002DEE96 /* FlockStationIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockStationIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C5F1BE50387002DEE96 /* FlockStationIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockStationIOSTests.swift; sourceTree = "<group>"; };
+		B3D58C611BE50387002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C6D1BE50397002DEE96 /* FlockStationWOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlockStationWOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D58C6F1BE50397002DEE96 /* FlockStationWOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockStationWOS.h; sourceTree = "<group>"; };
+		B3D58C711BE50397002DEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D58C7A1BE50541002DEE96 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Station.swift; path = FlockStation/Station.swift; sourceTree = "<group>"; };
+		B3D58C7F1BE50554002DEE96 /* IpAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddress.swift; path = FlockStation/IpAddress.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D58C141BE5031D002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C1E1BE5031D002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C221BE5031D002DEE96 /* FlockStationTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C311BE50378002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C3B1BE50378002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C3F1BE50378002DEE96 /* FlockStationOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C4D1BE50387002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C571BE50387002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C5B1BE50387002DEE96 /* FlockStationIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C691BE50397002DEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		B3D58B7C1BE4FE9D002DEE96 = {
 			isa = PBXGroup;
 			children = (
+				B3D58C2F1BE50336002DEE96 /* FlockStation */,
+				B3D58C121BE502A1002DEE96 /* ifaddrs */,
+				B3D58C191BE5031D002DEE96 /* FlockStationTV */,
+				B3D58C251BE5031D002DEE96 /* FlockStationTVTests */,
+				B3D58C361BE50378002DEE96 /* FlockStationOSX */,
+				B3D58C421BE50378002DEE96 /* FlockStationOSXTests */,
+				B3D58C521BE50387002DEE96 /* FlockStationIOS */,
+				B3D58C5E1BE50387002DEE96 /* FlockStationIOSTests */,
+				B3D58C6E1BE50397002DEE96 /* FlockStationWOS */,
+				B3D58B891BE4FF4B002DEE96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		B3D58B891BE4FF4B002DEE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */,
+				B3D58C211BE5031D002DEE96 /* FlockStationTVTests.xctest */,
+				B3D58C351BE50378002DEE96 /* FlockStationOSX.framework */,
+				B3D58C3E1BE50378002DEE96 /* FlockStationOSXTests.xctest */,
+				B3D58C511BE50387002DEE96 /* FlockStationIOS.framework */,
+				B3D58C5A1BE50387002DEE96 /* FlockStationIOSTests.xctest */,
+				B3D58C6D1BE50397002DEE96 /* FlockStationWOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D58C121BE502A1002DEE96 /* ifaddrs */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C111BE5029D002DEE96 /* module.map */,
+			);
+			name = ifaddrs;
+			sourceTree = "<group>";
+		};
+		B3D58C191BE5031D002DEE96 /* FlockStationTV */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C1A1BE5031D002DEE96 /* FlockStationTV.h */,
+				B3D58C1C1BE5031D002DEE96 /* Info.plist */,
+			);
+			path = FlockStationTV;
+			sourceTree = "<group>";
+		};
+		B3D58C251BE5031D002DEE96 /* FlockStationTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C261BE5031D002DEE96 /* FlockStationTVTests.swift */,
+				B3D58C281BE5031D002DEE96 /* Info.plist */,
+			);
+			path = FlockStationTVTests;
+			sourceTree = "<group>";
+		};
+		B3D58C2F1BE50336002DEE96 /* FlockStation */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C7F1BE50554002DEE96 /* IpAddress.swift */,
+				B3D58C7A1BE50541002DEE96 /* Station.swift */,
+			);
+			name = FlockStation;
+			sourceTree = "<group>";
+		};
+		B3D58C361BE50378002DEE96 /* FlockStationOSX */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C371BE50378002DEE96 /* FlockStationOSX.h */,
+				B3D58C391BE50378002DEE96 /* Info.plist */,
+			);
+			path = FlockStationOSX;
+			sourceTree = "<group>";
+		};
+		B3D58C421BE50378002DEE96 /* FlockStationOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C431BE50378002DEE96 /* FlockStationOSXTests.swift */,
+				B3D58C451BE50378002DEE96 /* Info.plist */,
+			);
+			path = FlockStationOSXTests;
+			sourceTree = "<group>";
+		};
+		B3D58C521BE50387002DEE96 /* FlockStationIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C531BE50387002DEE96 /* FlockStationIOS.h */,
+				B3D58C551BE50387002DEE96 /* Info.plist */,
+			);
+			path = FlockStationIOS;
+			sourceTree = "<group>";
+		};
+		B3D58C5E1BE50387002DEE96 /* FlockStationIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C5F1BE50387002DEE96 /* FlockStationIOSTests.swift */,
+				B3D58C611BE50387002DEE96 /* Info.plist */,
+			);
+			path = FlockStationIOSTests;
+			sourceTree = "<group>";
+		};
+		B3D58C6E1BE50397002DEE96 /* FlockStationWOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3D58C6F1BE50397002DEE96 /* FlockStationWOS.h */,
+				B3D58C711BE50397002DEE96 /* Info.plist */,
+			);
+			path = FlockStationWOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3D58C151BE5031D002DEE96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C1B1BE5031D002DEE96 /* FlockStationTV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C321BE50378002DEE96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C381BE50378002DEE96 /* FlockStationOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C4E1BE50387002DEE96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C541BE50387002DEE96 /* FlockStationIOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C6A1BE50397002DEE96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C701BE50397002DEE96 /* FlockStationWOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3D58C171BE5031D002DEE96 /* FlockStationTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C291BE5031D002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationTV" */;
+			buildPhases = (
+				B3D58C131BE5031D002DEE96 /* Sources */,
+				B3D58C141BE5031D002DEE96 /* Frameworks */,
+				B3D58C151BE5031D002DEE96 /* Headers */,
+				B3D58C161BE5031D002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockStationTV;
+			productName = FlockStationTV;
+			productReference = B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3D58C201BE5031D002DEE96 /* FlockStationTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C2C1BE5031D002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationTVTests" */;
+			buildPhases = (
+				B3D58C1D1BE5031D002DEE96 /* Sources */,
+				B3D58C1E1BE5031D002DEE96 /* Frameworks */,
+				B3D58C1F1BE5031D002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D58C241BE5031D002DEE96 /* PBXTargetDependency */,
+			);
+			name = FlockStationTVTests;
+			productName = FlockStationTVTests;
+			productReference = B3D58C211BE5031D002DEE96 /* FlockStationTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D58C341BE50378002DEE96 /* FlockStationOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C461BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSX" */;
+			buildPhases = (
+				B3D58C301BE50378002DEE96 /* Sources */,
+				B3D58C311BE50378002DEE96 /* Frameworks */,
+				B3D58C321BE50378002DEE96 /* Headers */,
+				B3D58C331BE50378002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockStationOSX;
+			productName = FlockStationOSX;
+			productReference = B3D58C351BE50378002DEE96 /* FlockStationOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3D58C3D1BE50378002DEE96 /* FlockStationOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C491BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSXTests" */;
+			buildPhases = (
+				B3D58C3A1BE50378002DEE96 /* Sources */,
+				B3D58C3B1BE50378002DEE96 /* Frameworks */,
+				B3D58C3C1BE50378002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D58C411BE50378002DEE96 /* PBXTargetDependency */,
+			);
+			name = FlockStationOSXTests;
+			productName = FlockStationOSXTests;
+			productReference = B3D58C3E1BE50378002DEE96 /* FlockStationOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D58C501BE50387002DEE96 /* FlockStationIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C621BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOS" */;
+			buildPhases = (
+				B3D58C4C1BE50387002DEE96 /* Sources */,
+				B3D58C4D1BE50387002DEE96 /* Frameworks */,
+				B3D58C4E1BE50387002DEE96 /* Headers */,
+				B3D58C4F1BE50387002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockStationIOS;
+			productName = FlockStationIOS;
+			productReference = B3D58C511BE50387002DEE96 /* FlockStationIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3D58C591BE50387002DEE96 /* FlockStationIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C651BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOSTests" */;
+			buildPhases = (
+				B3D58C561BE50387002DEE96 /* Sources */,
+				B3D58C571BE50387002DEE96 /* Frameworks */,
+				B3D58C581BE50387002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D58C5D1BE50387002DEE96 /* PBXTargetDependency */,
+			);
+			name = FlockStationIOSTests;
+			productName = FlockStationIOSTests;
+			productReference = B3D58C5A1BE50387002DEE96 /* FlockStationIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D58C6C1BE50397002DEE96 /* FlockStationWOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D58C721BE50397002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationWOS" */;
+			buildPhases = (
+				B3D58C681BE50397002DEE96 /* Sources */,
+				B3D58C691BE50397002DEE96 /* Frameworks */,
+				B3D58C6A1BE50397002DEE96 /* Headers */,
+				B3D58C6B1BE50397002DEE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockStationWOS;
+			productName = FlockStationWOS;
+			productReference = B3D58C6D1BE50397002DEE96 /* FlockStationWOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B3D58B7D1BE4FE9D002DEE96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					B3D58C171BE5031D002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C201BE5031D002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C341BE50378002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C3D1BE50378002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C501BE50387002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C591BE50387002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B3D58C6C1BE50397002DEE96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
 			};
 			buildConfigurationList = B3D58B801BE4FE9D002DEE96 /* Build configuration list for PBXProject "flockstation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,25 +446,870 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B3D58B7C1BE4FE9D002DEE96;
+			productRefGroup = B3D58B891BE4FF4B002DEE96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B3D58C171BE5031D002DEE96 /* FlockStationTV */,
+				B3D58C201BE5031D002DEE96 /* FlockStationTVTests */,
+				B3D58C341BE50378002DEE96 /* FlockStationOSX */,
+				B3D58C3D1BE50378002DEE96 /* FlockStationOSXTests */,
+				B3D58C501BE50387002DEE96 /* FlockStationIOS */,
+				B3D58C591BE50387002DEE96 /* FlockStationIOSTests */,
+				B3D58C6C1BE50397002DEE96 /* FlockStationWOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D58C161BE5031D002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C1F1BE5031D002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C331BE50378002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C3C1BE50378002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C4F1BE50387002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C581BE50387002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C6B1BE50397002DEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D58C131BE5031D002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C7B1BE50541002DEE96 /* Station.swift in Sources */,
+				B3D58C801BE50554002DEE96 /* IpAddress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C1D1BE5031D002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C271BE5031D002DEE96 /* FlockStationTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C301BE50378002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C7C1BE50541002DEE96 /* Station.swift in Sources */,
+				B3D58C811BE50554002DEE96 /* IpAddress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C3A1BE50378002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C441BE50378002DEE96 /* FlockStationOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C4C1BE50387002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C7D1BE50541002DEE96 /* Station.swift in Sources */,
+				B3D58C821BE50554002DEE96 /* IpAddress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C561BE50387002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C601BE50387002DEE96 /* FlockStationIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D58C681BE50397002DEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D58C7E1BE50541002DEE96 /* Station.swift in Sources */,
+				B3D58C831BE50554002DEE96 /* IpAddress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D58C241BE5031D002DEE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D58C171BE5031D002DEE96 /* FlockStationTV */;
+			targetProxy = B3D58C231BE5031D002DEE96 /* PBXContainerItemProxy */;
+		};
+		B3D58C411BE50378002DEE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D58C341BE50378002DEE96 /* FlockStationOSX */;
+			targetProxy = B3D58C401BE50378002DEE96 /* PBXContainerItemProxy */;
+		};
+		B3D58C5D1BE50387002DEE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D58C501BE50387002DEE96 /* FlockStationIOS */;
+			targetProxy = B3D58C5C1BE50387002DEE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B3D58B811BE4FE9D002DEE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/ifaddrs";
 			};
 			name = Debug;
 		};
 		B3D58B821BE4FE9D002DEE96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/ifaddrs";
+			};
+			name = Release;
+		};
+		B3D58C2A1BE5031D002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D58C2B1BE5031D002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D58C2D1BE5031D002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B3D58C2E1BE5031D002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D58C471BE50378002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D58C481BE50378002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D58C4A1BE50378002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D58C4B1BE50378002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3D58C631BE50387002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D58C641BE50387002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationIOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D58C661BE50387002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D58C671BE50387002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D58C731BE50397002DEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationWOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationWOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B3D58C741BE50397002DEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FlockStationWOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.FlockStationWOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -60,6 +1324,62 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B3D58C291BE5031D002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C2A1BE5031D002DEE96 /* Debug */,
+				B3D58C2B1BE5031D002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C2C1BE5031D002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C2D1BE5031D002DEE96 /* Debug */,
+				B3D58C2E1BE5031D002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C461BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C471BE50378002DEE96 /* Debug */,
+				B3D58C481BE50378002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C491BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C4A1BE50378002DEE96 /* Debug */,
+				B3D58C4B1BE50378002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C621BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C631BE50387002DEE96 /* Debug */,
+				B3D58C641BE50387002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C651BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C661BE50387002DEE96 /* Debug */,
+				B3D58C671BE50387002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D58C721BE50397002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationWOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D58C731BE50397002DEE96 /* Debug */,
+				B3D58C741BE50397002DEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
