@@ -7,6 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35139FF1BE5418800402E5D /* AdvanceableByInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F21BE5418800402E5D /* AdvanceableByInt.swift */; };
+		B3513A001BE5418800402E5D /* IpAddressEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F31BE5418800402E5D /* IpAddressEditable.swift */; };
+		B3513A011BE5418800402E5D /* IpAddressFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F41BE5418800402E5D /* IpAddressFamily.swift */; };
+		B3513A021BE5418800402E5D /* IpAddressNetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */; };
+		B3513A031BE5418800402E5D /* IpAddressNetInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */; };
+		B3513A041BE5418800402E5D /* IpAddressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F71BE5418800402E5D /* IpAddressProtocol.swift */; };
+		B3513A051BE5418800402E5D /* IpAddressRangable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F81BE5418800402E5D /* IpAddressRangable.swift */; };
+		B3513A061BE5418800402E5D /* IpAddressRangableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */; };
+		B3513A071BE5418800402E5D /* IpAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FA1BE5418800402E5D /* IpAddressRange.swift */; };
+		B3513A081BE5418800402E5D /* IpAddressRangeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */; };
+		B3513A091BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */; };
+		B3513A0A1BE5418800402E5D /* IpV4AddressBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */; };
+		B3513A0B1BE5418800402E5D /* IpAddressBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */; };
+		B3513A191BE542E900402E5D /* AdvanceableByInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F21BE5418800402E5D /* AdvanceableByInt.swift */; };
+		B3513A1A1BE542E900402E5D /* IpAddressEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F31BE5418800402E5D /* IpAddressEditable.swift */; };
+		B3513A1B1BE542E900402E5D /* IpAddressFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F41BE5418800402E5D /* IpAddressFamily.swift */; };
+		B3513A1C1BE542E900402E5D /* IpAddressNetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */; };
+		B3513A1D1BE542E900402E5D /* IpAddressNetInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */; };
+		B3513A1E1BE542E900402E5D /* IpAddressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F71BE5418800402E5D /* IpAddressProtocol.swift */; };
+		B3513A1F1BE542E900402E5D /* IpAddressRangable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F81BE5418800402E5D /* IpAddressRangable.swift */; };
+		B3513A201BE542E900402E5D /* IpAddressRangableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */; };
+		B3513A211BE542E900402E5D /* IpAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FA1BE5418800402E5D /* IpAddressRange.swift */; };
+		B3513A221BE542E900402E5D /* IpAddressRangeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */; };
+		B3513A231BE542E900402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */; };
+		B3513A241BE542E900402E5D /* IpV4AddressBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */; };
+		B3513A251BE542E900402E5D /* IpAddressBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */; };
+		B3513A261BE542E900402E5D /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
+		B3513A271BE542E900402E5D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
+		B3513A281BE542EA00402E5D /* AdvanceableByInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F21BE5418800402E5D /* AdvanceableByInt.swift */; };
+		B3513A291BE542EA00402E5D /* IpAddressEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F31BE5418800402E5D /* IpAddressEditable.swift */; };
+		B3513A2A1BE542EA00402E5D /* IpAddressFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F41BE5418800402E5D /* IpAddressFamily.swift */; };
+		B3513A2B1BE542EA00402E5D /* IpAddressNetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */; };
+		B3513A2C1BE542EA00402E5D /* IpAddressNetInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */; };
+		B3513A2D1BE542EA00402E5D /* IpAddressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F71BE5418800402E5D /* IpAddressProtocol.swift */; };
+		B3513A2E1BE542EA00402E5D /* IpAddressRangable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F81BE5418800402E5D /* IpAddressRangable.swift */; };
+		B3513A2F1BE542EA00402E5D /* IpAddressRangableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */; };
+		B3513A301BE542EA00402E5D /* IpAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FA1BE5418800402E5D /* IpAddressRange.swift */; };
+		B3513A311BE542EA00402E5D /* IpAddressRangeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */; };
+		B3513A321BE542EA00402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */; };
+		B3513A331BE542EA00402E5D /* IpV4AddressBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */; };
+		B3513A341BE542EA00402E5D /* IpAddressBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */; };
+		B3513A351BE542EA00402E5D /* AdvanceableByInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F21BE5418800402E5D /* AdvanceableByInt.swift */; };
+		B3513A361BE542EA00402E5D /* IpAddressEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F31BE5418800402E5D /* IpAddressEditable.swift */; };
+		B3513A371BE542EA00402E5D /* IpAddressFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F41BE5418800402E5D /* IpAddressFamily.swift */; };
+		B3513A381BE542EA00402E5D /* IpAddressNetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */; };
+		B3513A391BE542EA00402E5D /* IpAddressNetInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */; };
+		B3513A3A1BE542EA00402E5D /* IpAddressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F71BE5418800402E5D /* IpAddressProtocol.swift */; };
+		B3513A3B1BE542EA00402E5D /* IpAddressRangable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F81BE5418800402E5D /* IpAddressRangable.swift */; };
+		B3513A3C1BE542EA00402E5D /* IpAddressRangableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */; };
+		B3513A3D1BE542EA00402E5D /* IpAddressRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FA1BE5418800402E5D /* IpAddressRange.swift */; };
+		B3513A3E1BE542EA00402E5D /* IpAddressRangeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */; };
+		B3513A3F1BE542EA00402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */; };
+		B3513A401BE542EA00402E5D /* IpV4AddressBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */; };
+		B3513A411BE542EA00402E5D /* IpAddressBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */; };
 		B3D58C1B1BE5031D002DEE96 /* FlockStationTV.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C1A1BE5031D002DEE96 /* FlockStationTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D58C221BE5031D002DEE96 /* FlockStationTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */; };
 		B3D58C271BE5031D002DEE96 /* FlockStationTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C261BE5031D002DEE96 /* FlockStationTVTests.swift */; };
@@ -18,11 +72,9 @@
 		B3D58C601BE50387002DEE96 /* FlockStationIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C5F1BE50387002DEE96 /* FlockStationIOSTests.swift */; };
 		B3D58C701BE50397002DEE96 /* FlockStationWOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D58C6F1BE50397002DEE96 /* FlockStationWOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D58C7B1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
-		B3D58C7C1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
 		B3D58C7D1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
 		B3D58C7E1BE50541002DEE96 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7A1BE50541002DEE96 /* Station.swift */; };
 		B3D58C801BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
-		B3D58C811BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
 		B3D58C821BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
 		B3D58C831BE50554002DEE96 /* IpAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D58C7F1BE50554002DEE96 /* IpAddress.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +104,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B35139F21BE5418800402E5D /* AdvanceableByInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdvanceableByInt.swift; path = FlockStation/AdvanceableByInt.swift; sourceTree = "<group>"; };
+		B35139F31BE5418800402E5D /* IpAddressEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressEditable.swift; path = FlockStation/IpAddressEditable.swift; sourceTree = "<group>"; };
+		B35139F41BE5418800402E5D /* IpAddressFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressFamily.swift; path = FlockStation/IpAddressFamily.swift; sourceTree = "<group>"; };
+		B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressNetInfo.swift; path = FlockStation/IpAddressNetInfo.swift; sourceTree = "<group>"; };
+		B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressNetInfoProtocol.swift; path = FlockStation/IpAddressNetInfoProtocol.swift; sourceTree = "<group>"; };
+		B35139F71BE5418800402E5D /* IpAddressProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressProtocol.swift; path = FlockStation/IpAddressProtocol.swift; sourceTree = "<group>"; };
+		B35139F81BE5418800402E5D /* IpAddressRangable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressRangable.swift; path = FlockStation/IpAddressRangable.swift; sourceTree = "<group>"; };
+		B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressRangableSequence.swift; path = FlockStation/IpAddressRangableSequence.swift; sourceTree = "<group>"; };
+		B35139FA1BE5418800402E5D /* IpAddressRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressRange.swift; path = FlockStation/IpAddressRange.swift; sourceTree = "<group>"; };
+		B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressRangeFactory.swift; path = FlockStation/IpAddressRangeFactory.swift; sourceTree = "<group>"; };
+		B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressRangeFactoryProtocol.swift; path = FlockStation/IpAddressRangeFactoryProtocol.swift; sourceTree = "<group>"; };
+		B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpV4AddressBuilder.swift; path = FlockStation/IpV4AddressBuilder.swift; sourceTree = "<group>"; };
+		B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IpAddressBuilderProtocol.swift; path = FlockStation/IpAddressBuilderProtocol.swift; sourceTree = "<group>"; };
 		B3D58C111BE5029D002DEE96 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.map; path = ifaddrs/module.map; sourceTree = "<group>"; };
 		B3D58C181BE5031D002DEE96 /* FlockStationTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlockStationTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D58C1A1BE5031D002DEE96 /* FlockStationTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockStationTV.h; sourceTree = "<group>"; };
@@ -193,6 +258,19 @@
 		B3D58C2F1BE50336002DEE96 /* FlockStation */ = {
 			isa = PBXGroup;
 			children = (
+				B35139F21BE5418800402E5D /* AdvanceableByInt.swift */,
+				B35139F31BE5418800402E5D /* IpAddressEditable.swift */,
+				B35139F41BE5418800402E5D /* IpAddressFamily.swift */,
+				B35139F51BE5418800402E5D /* IpAddressNetInfo.swift */,
+				B35139F61BE5418800402E5D /* IpAddressNetInfoProtocol.swift */,
+				B35139F71BE5418800402E5D /* IpAddressProtocol.swift */,
+				B35139F81BE5418800402E5D /* IpAddressRangable.swift */,
+				B35139F91BE5418800402E5D /* IpAddressRangableSequence.swift */,
+				B35139FA1BE5418800402E5D /* IpAddressRange.swift */,
+				B35139FB1BE5418800402E5D /* IpAddressRangeFactory.swift */,
+				B35139FC1BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift */,
+				B35139FD1BE5418800402E5D /* IpV4AddressBuilder.swift */,
+				B35139FE1BE5418800402E5D /* IpAddressBuilderProtocol.swift */,
 				B3D58C7F1BE50554002DEE96 /* IpAddress.swift */,
 				B3D58C7A1BE50541002DEE96 /* Station.swift */,
 			);
@@ -521,8 +599,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3513A0B1BE5418800402E5D /* IpAddressBuilderProtocol.swift in Sources */,
 				B3D58C7B1BE50541002DEE96 /* Station.swift in Sources */,
+				B3513A021BE5418800402E5D /* IpAddressNetInfo.swift in Sources */,
+				B3513A061BE5418800402E5D /* IpAddressRangableSequence.swift in Sources */,
+				B3513A0A1BE5418800402E5D /* IpV4AddressBuilder.swift in Sources */,
+				B3513A011BE5418800402E5D /* IpAddressFamily.swift in Sources */,
+				B3513A091BE5418800402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */,
+				B3513A041BE5418800402E5D /* IpAddressProtocol.swift in Sources */,
+				B3513A071BE5418800402E5D /* IpAddressRange.swift in Sources */,
+				B3513A031BE5418800402E5D /* IpAddressNetInfoProtocol.swift in Sources */,
+				B35139FF1BE5418800402E5D /* AdvanceableByInt.swift in Sources */,
 				B3D58C801BE50554002DEE96 /* IpAddress.swift in Sources */,
+				B3513A051BE5418800402E5D /* IpAddressRangable.swift in Sources */,
+				B3513A081BE5418800402E5D /* IpAddressRangeFactory.swift in Sources */,
+				B3513A001BE5418800402E5D /* IpAddressEditable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,8 +629,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D58C7C1BE50541002DEE96 /* Station.swift in Sources */,
-				B3D58C811BE50554002DEE96 /* IpAddress.swift in Sources */,
+				B3513A251BE542E900402E5D /* IpAddressBuilderProtocol.swift in Sources */,
+				B3513A271BE542E900402E5D /* Station.swift in Sources */,
+				B3513A191BE542E900402E5D /* AdvanceableByInt.swift in Sources */,
+				B3513A1E1BE542E900402E5D /* IpAddressProtocol.swift in Sources */,
+				B3513A261BE542E900402E5D /* IpAddress.swift in Sources */,
+				B3513A231BE542E900402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */,
+				B3513A1B1BE542E900402E5D /* IpAddressFamily.swift in Sources */,
+				B3513A1A1BE542E900402E5D /* IpAddressEditable.swift in Sources */,
+				B3513A1C1BE542E900402E5D /* IpAddressNetInfo.swift in Sources */,
+				B3513A211BE542E900402E5D /* IpAddressRange.swift in Sources */,
+				B3513A241BE542E900402E5D /* IpV4AddressBuilder.swift in Sources */,
+				B3513A1F1BE542E900402E5D /* IpAddressRangable.swift in Sources */,
+				B3513A201BE542E900402E5D /* IpAddressRangableSequence.swift in Sources */,
+				B3513A221BE542E900402E5D /* IpAddressRangeFactory.swift in Sources */,
+				B3513A1D1BE542E900402E5D /* IpAddressNetInfoProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,8 +659,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3513A341BE542EA00402E5D /* IpAddressBuilderProtocol.swift in Sources */,
 				B3D58C7D1BE50541002DEE96 /* Station.swift in Sources */,
+				B3513A2B1BE542EA00402E5D /* IpAddressNetInfo.swift in Sources */,
+				B3513A2F1BE542EA00402E5D /* IpAddressRangableSequence.swift in Sources */,
+				B3513A331BE542EA00402E5D /* IpV4AddressBuilder.swift in Sources */,
+				B3513A2A1BE542EA00402E5D /* IpAddressFamily.swift in Sources */,
+				B3513A321BE542EA00402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */,
+				B3513A2D1BE542EA00402E5D /* IpAddressProtocol.swift in Sources */,
+				B3513A301BE542EA00402E5D /* IpAddressRange.swift in Sources */,
+				B3513A2C1BE542EA00402E5D /* IpAddressNetInfoProtocol.swift in Sources */,
+				B3513A281BE542EA00402E5D /* AdvanceableByInt.swift in Sources */,
 				B3D58C821BE50554002DEE96 /* IpAddress.swift in Sources */,
+				B3513A2E1BE542EA00402E5D /* IpAddressRangable.swift in Sources */,
+				B3513A311BE542EA00402E5D /* IpAddressRangeFactory.swift in Sources */,
+				B3513A291BE542EA00402E5D /* IpAddressEditable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,8 +689,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3513A411BE542EA00402E5D /* IpAddressBuilderProtocol.swift in Sources */,
 				B3D58C7E1BE50541002DEE96 /* Station.swift in Sources */,
+				B3513A381BE542EA00402E5D /* IpAddressNetInfo.swift in Sources */,
+				B3513A3C1BE542EA00402E5D /* IpAddressRangableSequence.swift in Sources */,
+				B3513A401BE542EA00402E5D /* IpV4AddressBuilder.swift in Sources */,
+				B3513A371BE542EA00402E5D /* IpAddressFamily.swift in Sources */,
+				B3513A3F1BE542EA00402E5D /* IpAddressRangeFactoryProtocol.swift in Sources */,
+				B3513A3A1BE542EA00402E5D /* IpAddressProtocol.swift in Sources */,
+				B3513A3D1BE542EA00402E5D /* IpAddressRange.swift in Sources */,
+				B3513A391BE542EA00402E5D /* IpAddressNetInfoProtocol.swift in Sources */,
+				B3513A351BE542EA00402E5D /* AdvanceableByInt.swift in Sources */,
 				B3D58C831BE50554002DEE96 /* IpAddress.swift in Sources */,
+				B3513A3B1BE542EA00402E5D /* IpAddressRangable.swift in Sources */,
+				B3513A3E1BE542EA00402E5D /* IpAddressRangeFactory.swift in Sources */,
+				B3513A361BE542EA00402E5D /* IpAddressEditable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1332,6 +1462,7 @@
 				B3D58C2B1BE5031D002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C2C1BE5031D002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationTVTests" */ = {
 			isa = XCConfigurationList;
@@ -1340,6 +1471,7 @@
 				B3D58C2E1BE5031D002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C461BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSX" */ = {
 			isa = XCConfigurationList;
@@ -1348,6 +1480,7 @@
 				B3D58C481BE50378002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C491BE50378002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1356,6 +1489,7 @@
 				B3D58C4B1BE50378002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C621BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOS" */ = {
 			isa = XCConfigurationList;
@@ -1364,6 +1498,7 @@
 				B3D58C641BE50387002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C651BE50387002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1372,6 +1507,7 @@
 				B3D58C671BE50387002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D58C721BE50397002DEE96 /* Build configuration list for PBXNativeTarget "FlockStationWOS" */ = {
 			isa = XCConfigurationList;
@@ -1380,6 +1516,7 @@
 				B3D58C741BE50397002DEE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

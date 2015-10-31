@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+/*
 import ifaddrs
 
 
@@ -238,7 +238,7 @@ public struct IpV4AddressBuilder : IpAddressBuilderProtocol {
     return IpAddress<UInt8>(family: .IpV4, components: components)
   }
 }
-
+*/
 public struct IpAddress<T : AdvanceableByInt> {
   public let family:IpAddressFamily
   let components:[T]
@@ -257,8 +257,14 @@ public struct IpAddress<T : AdvanceableByInt> {
     }
   }
   
+  public func equals(other: IpAddressProtocol) -> Bool {
+    guard let other = other as? IpAddress else {
+      return false
+    }
+    return other.components == self.components
+  }
 }
-
+/*
 public protocol IpAddressProtocol : CustomStringConvertible {
   var family : IpAddressFamily { get }
 }
@@ -291,7 +297,7 @@ extension UInt8 : AdvanceableByInt {
     return result
   }
 }
-
+*/
 public prefix func ~<T:AdvanceableByInt>(address: IpAddress<T>) -> IpAddress<T> {
   return IpAddress<T>(family: address.family, components: address.components.map{ ~$0 })
 }
@@ -328,8 +334,9 @@ public func - <T:AdvanceableByInt>(left: IpAddress<T>, right: IpAddress<T>) -> I
 extension IpAddress : IpAddressEditable, IpAddressProtocol, CustomStringConvertible  {
   
 }
-
+/*
 public protocol IpAddressBuilderProtocol {
   func build(string: String) -> IpAddressProtocol?
 }
+*/
 
