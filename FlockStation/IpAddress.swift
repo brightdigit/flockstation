@@ -237,7 +237,7 @@ public protocol IpAddressRangeFactoryProtocol {
 
 
 public struct IpAddressRangeFactory : IpAddressRangeFactoryProtocol {
-  static var factory:IpAddressRangeFactoryProtocol = IpAddressRangeFactory()
+  public static var factory:IpAddressRangeFactoryProtocol = IpAddressRangeFactory()
   
   public func range(fromIpAddress ipAddress: IpAddressProtocol, netmask: IpAddressProtocol) -> IpAddressRangable? {
     if ipAddress.family == netmask.family {
@@ -246,6 +246,10 @@ public struct IpAddressRangeFactory : IpAddressRangeFactoryProtocol {
       }
     }
     return nil
+  }
+  
+  public func range(fromIpAddressNetInfo netinfo: IpAddressNetInfoProtocol) -> IpAddressRangable? {
+    return self.range(fromIpAddress: netinfo.ipAddress, netmask: netinfo.subnetMask)
   }
 }
 
