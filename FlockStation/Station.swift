@@ -19,14 +19,6 @@ public class Station : NSObject {
     if getifaddrs(&ifaddr) == 0 {
       // For each interface ...
       for (var ptr = ifaddr; ptr != nil; ptr = ptr.memory.ifa_next) {
-        /*
-        if let range = IpAddressRangeBuilder.builder.build(ptr) {
-          for address in range.sequence() {
-            print(address)
-          }
-        }
-        
-        */
         if let address = IpAddressNetInfo(ifaddrs_ptr: ptr) {
           addresses.append(address)
         }
